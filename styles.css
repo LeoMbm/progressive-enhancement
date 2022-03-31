@@ -72,8 +72,13 @@ a:hover {
 .good {
 
   text-transform: capitalize;
+  color: green;
 }
 
 .bad{
   text-transform: capitalize;
+  color: red;
 }
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
