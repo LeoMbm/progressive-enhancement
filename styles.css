@@ -3,7 +3,9 @@ body {
   margin: auto;
   font-size: 160%;
   background: radial-gradient(rgb(177, 159, 30), rgb(14, 106, 96));
-
+  background-image : url(/img/back.jpg);
+  background-repeat : no-repeat;
+  background-size: cover;
   
 }
 
