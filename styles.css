@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: auto;
+}
+
+p {
+  font-family: serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: #08084c;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+a:hover {
+  color: rebeccapurple;
+}
