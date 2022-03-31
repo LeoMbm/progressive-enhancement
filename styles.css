@@ -3,10 +3,15 @@ body {
   margin: auto;
   font-size: 160%;
   background: radial-gradient(rgb(177, 159, 30), rgb(14, 106, 96));
-  background-image: url(/img/back.jpg);
+  background-image: url(/img/back2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
+}
+
+header>h1{
+
+  background-color: yellow;
 }
 
 p {
@@ -16,10 +21,20 @@ p {
   color: #08084c;
 }
 
-blockquote {
+blockquote  {
   margin: auto;
   background-color: #a6a6a6;
   border-left: 3px solid firebrick;
+  padding-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+}
+
+q{
+  font-style: italic;
+  background-color: #a6a6a6;
+    border-left: 3px solid firebrick;
   padding-left: 30px;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -42,4 +57,23 @@ a:visited {
 }
 a:hover {
   color: rebeccapurple;
+}
+
+.village{
+  border-left: 3px solid blue;
+
+}
+
+.fermier{
+  border-left: 3px solid rgb(226, 24, 182);
+
+}
+
+.good {
+
+  text-transform: capitalize;
+}
+
+.bad{
+  text-transform: capitalize;
 }
