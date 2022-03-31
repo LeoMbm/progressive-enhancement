@@ -2,6 +2,8 @@ body {
   max-width: 90%;
   margin: auto;
   font-size: 160%;
+  background: radial-gradient(rgb(177, 159, 30), rgb(14, 106, 96));
+
   
 }
 
@@ -17,6 +19,8 @@ blockquote{
   background-color: #a6a6a6;
   border-left: 3px solid firebrick;
   padding-left:30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 ul {
