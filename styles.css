@@ -1,13 +1,22 @@
-* {
-  margin: 0;
-  padding: auto;
+body {
+  max-width: 90%;
+  margin: auto;
+  font-size: 160%;
+  
 }
 
 p {
   font-family: serif;
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 20px;
   color: #08084c;
+}
+
+blockquote{
+  margin: auto;
+  background-color: #a6a6a6;
+  border-left: 3px solid firebrick;
+  padding-left:30px;
 }
 
 ul {
@@ -22,8 +31,8 @@ li a {
   text-decoration: none;
 }
 
-a:visited{
-    color: black;
+a:visited {
+  color: black;
 }
 a:hover {
   color: rebeccapurple;
