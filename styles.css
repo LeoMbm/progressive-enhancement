@@ -101,26 +101,26 @@ img {
   padding: 10px;
 }
 
-#bien::before {
+#bien::after {
   content: url(/img/bien.png);
   background-repeat: no-repeat;
   position: relative;
-  left: -3px;
-  top: 10px;
+  bottom: -8px;
 }
 
-#mal::before {
+#mal::after{
   content: url(/img/mal.png);
   background-repeat: no-repeat;
   position: relative;
-  left: -3px;
-  top: 10px;
+  bottom: -10px;
+  
 }
 
-#chat::before {
+#chat::after {
   content: url(/img/chat.png);
   background-repeat: no-repeat;
   position: relative;
-  left: -3px;
-  top: 10px;
+  bottom: -8px;
+  
+ 
 }
