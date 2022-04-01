@@ -9,8 +9,7 @@ body {
   background-position: bottom right;
 }
 
-header>h1{
-
+header > h1 {
   background-color: yellow;
 }
 
@@ -21,7 +20,7 @@ p {
   color: #08084c;
 }
 
-blockquote  {
+blockquote {
   margin: auto;
   background-color: #a6a6a6;
   border-left: 3px solid firebrick;
@@ -31,10 +30,10 @@ blockquote  {
   font-style: italic;
 }
 
-q{
+q {
   font-style: italic;
   background-color: #a6a6a6;
-    border-left: 3px solid firebrick;
+  border-left: 3px solid firebrick;
   padding-left: 30px;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -59,26 +58,46 @@ a:hover {
   color: rebeccapurple;
 }
 
-.village{
+.village {
   border-left: 3px solid blue;
-
 }
 
-.fermier{
+.fermier {
   border-left: 3px solid rgb(226, 24, 182);
-
 }
 
 .good {
-
   text-transform: capitalize;
   color: green;
 }
 
-.bad{
+.bad {
   text-transform: capitalize;
   color: red;
 }
 
-tr:nth-child(even) {background: #CCC}
-tr:nth-child(odd) {background: #FFF}
+tr:nth-child(even) {
+  background: #ccc;
+}
+
+tr:nth-child(odd) {
+  background: #fff;
+}
+
+.fitem {
+  background-image: url(/img/bien.png);
+  padding-right: 100px;
+  background-repeat: no-repeat;
+}
+.sitem {
+  background-image: url(/img/mal.png);
+  padding-right: px;
+  background-repeat: no-repeat;
+}
+
+.titem {
+  background-image: url(/img/chat.png);
+  padding-right: 100px;
+  background-repeat: no-repeat;
+}
+
