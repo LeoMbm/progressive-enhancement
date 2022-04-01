@@ -13,12 +13,19 @@ header > h1 {
   background-color: yellow;
 }
 
+#fpara{
+  font-weight: bold;
+}
+  
+
+
 p {
   font-family: serif;
   letter-spacing: 1px;
   font-size: 20px;
   color: #08084c;
 }
+
 
 blockquote {
   margin: auto;
@@ -84,20 +91,10 @@ tr:nth-child(odd) {
   background: #fff;
 }
 
-.fitem {
-  background-image: url(/img/bien.png);
-  padding-right: 100px;
-  background-repeat: no-repeat;
-}
-.sitem {
-  background-image: url(/img/mal.png);
-  padding-right: px;
-  background-repeat: no-repeat;
-}
+/* .fitem {
 
-.titem {
-  background-image: url(/img/chat.png);
-  padding-right: 100px;
   background-repeat: no-repeat;
-}
-
+width: 50px;
+height: 50px;
+ 
+} */
