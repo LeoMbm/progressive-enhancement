@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap");
 body {
   max-width: 90%;
   margin: auto;
@@ -15,11 +15,9 @@ header > h1 {
   background-color: yellow;
 }
 
-#fpara{
+#fpara {
   font-weight: bold;
 }
-  
-
 
 p {
   font-family: serif;
@@ -27,7 +25,6 @@ p {
   font-size: 20px;
   color: #08084c;
 }
-
 
 blockquote {
   margin: auto;
@@ -60,8 +57,7 @@ li a {
   text-decoration: none;
 }
 
-li{
-  
+li {
   padding: 10px;
 }
 
@@ -98,39 +94,33 @@ tr:nth-child(odd) {
   background: #fff;
 }
 
-
-section img{
+img {
   width: 450px;
   height: 300px;
-  float:left;
+  float: left;
   padding: 10px;
 }
 
-#bien::before{
+#bien::before {
   content: url(/img/bien.png);
   background-repeat: no-repeat;
   position: relative;
   left: -3px;
   top: 10px;
-  
-
 }
 
-#mal::before{
+#mal::before {
   content: url(/img/mal.png);
   background-repeat: no-repeat;
   position: relative;
   left: -3px;
   top: 10px;
-  
-
 }
 
-#chat::before{
+#chat::before {
   content: url(/img/chat.png);
   background-repeat: no-repeat;
   position: relative;
   left: -3px;
   top: 10px;
-
 }
