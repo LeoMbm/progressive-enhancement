@@ -61,12 +61,14 @@ li {
   padding: 10px;
 }
 
+
 a:visited {
   color: black;
 }
 a:hover {
   color: rebeccapurple;
 }
+
 
 .village {
   border-left: 3px solid blue;
@@ -94,6 +96,8 @@ tr:nth-child(odd) {
   background: #fff;
 }
 
+
+
 img {
   width: 450px;
   height: 300px;
@@ -102,14 +106,14 @@ img {
 }
 
 #bien::after {
-  content: url(/img/bien.png);
+  content: url(./img/bien.png);
   background-repeat: no-repeat;
   position: relative;
   bottom: -8px;
 }
 
 #mal::after{
-  content: url(/img/mal.png);
+  content: url(./img/mal.png);
   background-repeat: no-repeat;
   position: relative;
   bottom: -10px;
@@ -117,7 +121,7 @@ img {
 }
 
 #chat::after {
-  content: url(/img/chat.png);
+  content: url(./img/chat.png);
   background-repeat: no-repeat;
   position: relative;
   bottom: -8px;
